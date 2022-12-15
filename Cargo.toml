@@ -2,6 +2,17 @@
 name = "maya-sys"
 version = "0.1.0"
 edition = "2021"
+license-file = "LICENCE"
+description = "Maya C++ API bindgen"
+homepage = "https://github.com/Choi-Jungwoo/maya-sys"
+documentation = "https://github.com/Choi-Jungwoo/maya-sys"
+repository = "https://github.com/Choi-Jungwoo/maya-sys"
+readme = "README.md"
+include = [
+    "**/*.rs",
+    "include",
+    "Cargo.toml",
+]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
